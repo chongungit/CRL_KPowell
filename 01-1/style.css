@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #23424a;
+    color: white;
+
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 5em; /* 16 times 5 = 5 em */
+    /*height: 300px;*/
+}
+
+/*
+
+.parent {
+    background-color: #23424a;
+    padding: 50px;
+
+    !*width: 900px;*!
+    margin: 0 auto;
+    width: 50%;
+
+    !*overflow: hidden;*!
+}
+
+.child {
+    background-color: #38cfd9;
+    width: 50%;
+    height: 250px;
+}*/
