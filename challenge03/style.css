@@ -1,0 +1,63 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.container{
+    background: #23424A;
+    color: #FFFFFF;
+    /*width: 80%;*/
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 50%;
+    max-width: 860px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 56px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 3em;
+}
+
+.button {
+    /*display: inline-flex;*/
+    display: inline-block;
+    font-weight: 900;
+    /*font-size: 21px;*/
+    color: #23424A;
+    /*line-height: 32px;*/
+    background: #38CFD9;
+    mix-blend-mode: normal;
+    border-radius: 100px;
+    padding: .75em 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover,
+.button:focus {
+    opacity: .75;
+}
